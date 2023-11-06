@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    size: 16px;
+}
+
+#app {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+ul > li {
+    list-style-type: none;
+    padding: 12px;
+}
+
+nav {
+    width: 100vw;
+    background-color: crimson;
+}
+
+nav > ul {
+    display: flex;
+    align-items: end;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+nav ul > li:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+nav ul > li:active {
+    background-color: whitesmoke;
+}
+
+section {
+    padding: 20px;
+}
+
+#login, #project, #home {
+    display: none;
+    height: 100%;
+    width: 100vw;
+}
+
+input, label, button{
+    display: block;
+    margin: 0px auto;
+    font-weight: bold;
+}
+
+input {
+    width: 350px;
+    padding: 5px 10px;
+}
+
+label {
+    padding: 10px;
+}
+
+#buttons {
+    border-radius: 25px;
+    width: 150px;
+    padding: 10px 10px;
+    cursor: pointer;
+    border: none;
+    margin: 30px auto;
+    transition-duration: 0.4s;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+
+#buttons:hover {
+    background-color: black;
+    color: white;
+}
